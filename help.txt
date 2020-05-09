@@ -1,0 +1,32 @@
+pg driver para conectar con postgres
+@types/express //  driver para que type scrip entienda los comandos tipocos de express
+@types/pg // tipo de datos de desarrollor para usar postgres con typscript
+typescript": "^3.8.3" // driver para usar typscript
+script
+build tsc // convierte el codigo a formato js para que sea entendio por el navegadores
+concurrently // ejecutar multiples comandos en un solo comando
+modulo typscript // comando npx tsc // compilador de ts 
+
+comando// npx tsc --init  // crea archivo de configuracion de typscript
+y para decirle a typscript hacia que entorno va a compilar y convertir los archivos 
+primara configuracion
+"target": "es6"  // que version de js va a compilar
+"module": "commonjs" // para que typscript trabaje con los modulos de node js 
+"outDir": "./dist"  // donde estaran los archivos convertidos de salida js
+"rootDir": "./src"  //  carpeta de origen en este caso src
+"strict": true  // para decirle a typscript que tebemos que declarar algunos tipos de datos para que la aplicacion no tenga bugs
+"moduleResolution": "node" // para usar los objetos globales de node 
+"esModuleInterop": true  // importat los archivos usando es6 modulos
+"exclude": ["node-modules"] // que archivos quiere que ingore  ya que no se va a convertir nada en la carpeta node-modules
+
+
+POOT tener las conexiones disponibles para utilizar desde el codigo de node
+
+
+
+{
+	"nombre":"Oliver",
+	"apellido":"Charry",
+	"email":"oliver.charry@gmail.com",
+	"telefono":"3124434344"
+}
